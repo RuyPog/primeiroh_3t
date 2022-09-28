@@ -11,4 +11,8 @@ alert("Oi, eu sou um alerta")
                 document.write(tabuada + " X 4 = " + (tabuada*4)+"<br>");
                 document.write(tabuada + " X 5 = " + (tabuada*5)+"<br>");
                 document.write(tabuada + " X 6 = " + (tabuada*6)+"<br>");
+                document.write(tabuada + " X 7 = " + (tabuada*7)+"<br>");
+                document.write(tabuada + " X 8 = " + (tabuada*8)+"<br>");
+                document.write(tabuada + " X 9 = " + (tabuada*9)+"<br>");
+                document.write(tabuada + " X 10 = " + (tabuada+10)+"<br>");
             }

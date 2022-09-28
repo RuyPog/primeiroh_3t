@@ -3,5 +3,5 @@ alert("Oi, eu sou um alerta")
         document.write("Aula de Pens. Comp.");
 
         function meChame(){
-                alert("Oie");
+                alert("Bobão 🗿");
             }

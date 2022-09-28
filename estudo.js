@@ -6,5 +6,9 @@ alert("Oi, eu sou um alerta")
 
         function meChame(){
                 document.write(tabuada + " X 1 = " + (tabuada*1)+"<br>");
-                document.write(tabuada + " X 2 = " + (tabuada*2));
+                document.write(tabuada + " X 2 = " + (tabuada*2)+"<br>");
+                document.write(tabuada + " X 3 = " + (tabuada*3)+"<br>");
+                document.write(tabuada + " X 4 = " + (tabuada*4)+"<br>");
+                document.write(tabuada + " X 5 = " + (tabuada*5)+"<br>");
+                document.write(tabuada + " X 6 = " + (tabuada*6)+"<br>");
             }

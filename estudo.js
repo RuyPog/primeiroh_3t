@@ -4,5 +4,5 @@ alert("Oi, eu sou um alerta")
         let tabuada = 2;
 
         function meChame(){
-                document.write(é);
+                document.write(tabuada + " X 1 = " + );
             }

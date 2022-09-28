@@ -5,6 +5,7 @@ alert("Oi, eu sou um alerta")
         let tabuada = 2;
 
         function meChame(){
+                document.write("<h1>Tabuada do " + tabuada + "</h1>");
                 document.write(tabuada + " X 1 = " + (tabuada*1)+"<br>");
                 document.write(tabuada + " X 2 = " + (tabuada*2)+"<br>");
                 document.write(tabuada + " X 3 = " + (tabuada*3)+"<br>");

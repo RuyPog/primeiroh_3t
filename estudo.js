@@ -6,6 +6,6 @@ alert("Oi, eu sou um alerta")
         let turma = "H";
         let serie = 1;
         function meChame(){
-                document.write("Eu sou"+nome+"Nr"+numero+"do"+serie+turma);
+                document.write("Eu sou"<br>+nome+"Nr"+numero+"do"+serie+turma);
                 alert("😐🤘");
             }

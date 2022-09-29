@@ -3,8 +3,8 @@ alert("Oi, eu sou um alerta")
         document.write("Aula de Pens. Comp.");
        
         let tabuada = 2;
-        let nome = 
-        function meChame(BernardinhoGameplays){
+
+        function meChame(nome){
                 document.write("<h1>Tabuada do " + tabuada + "</h1>");
                 document.write(tabuada + " X 1 = " + (tabuada*1)+"<br>");
                 document.write(tabuada + " X 2 = " + (tabuada*2)+"<br>");
@@ -16,5 +16,5 @@ alert("Oi, eu sou um alerta")
                 document.write(tabuada + " X 8 = " + (tabuada*8)+"<br>");
                 document.write(tabuada + " X 9 = " + (tabuada*9)+"<br>");
                 document.write(tabuada + " X 10 = " + (tabuada*10)+"<br>"+"<br>");
-                document.write("feita por" + BernardinhoGameplays);
+                document.write("feita por" + nome);
             }

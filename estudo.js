@@ -4,7 +4,7 @@ alert("Oi, eu sou um alerta")
        
         let tabuada = 2;
         let nome = 
-        function meChame(nome){
+        function meChame(BernardinhoGameplays){
                 document.write("<h1>Tabuada do " + tabuada + "</h1>");
                 document.write(tabuada + " X 1 = " + (tabuada*1)+"<br>");
                 document.write(tabuada + " X 2 = " + (tabuada*2)+"<br>");
@@ -16,5 +16,5 @@ alert("Oi, eu sou um alerta")
                 document.write(tabuada + " X 8 = " + (tabuada*8)+"<br>");
                 document.write(tabuada + " X 9 = " + (tabuada*9)+"<br>");
                 document.write(tabuada + " X 10 = " + (tabuada*10)+"<br>"+"<br>");
-                document.write("feita por" + nome);
+                document.write("feita por" + BernardinhoGameplays);
             }

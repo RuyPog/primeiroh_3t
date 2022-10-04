@@ -21,6 +21,9 @@ alert("Oi, eu sou um alerta")
             function escreva() {
                 for(var i = 0; 1 < 20; i++){
                         document.write(tabuada + " x 10 = " + i + (tabuada*i) + "<br>")
-
                 }
             } 
+            function quadrado(){
+                for(var i = 2; 1 < 21; i++){
+                        document.write("O quadrado de " + i + " é " + (i*i)+"<br>")
+            }

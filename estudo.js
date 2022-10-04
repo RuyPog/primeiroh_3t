@@ -20,7 +20,7 @@ alert("Oi, eu sou um alerta")
             }
             function tabuada() {
                 for(var i = 0; 1 < 20; i++){
-                        document.write("0 valor de i = " + i + "<br>")
+                        document.write(tabuada + " x 10 = " + i + (tabuada*i) + "<br>")
 
                 }
-            }
+            } 

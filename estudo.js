@@ -18,3 +18,9 @@ alert("Oi, eu sou um alerta")
                 document.write(tabuada + " X 10 = " + (tabuada*10)+"<br>"+"<br>");
                 document.write("feita por " + nome);
             }
+            function tabuada() {
+                for(var 1 = 0; 1 < 20; i++){
+                        document.write("0 valor de i = " + i + "<br>")
+
+                }
+            }

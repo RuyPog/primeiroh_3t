@@ -29,7 +29,7 @@ alert("Oi, eu sou um alerta")
             }
             function total(){
                 let valor = document.getElementById("val").value;
-                let resultado = valor * 2;
+                let juros = document.getElementById("ju").value;
+                let resultado = valor * (1+(juros/100));
                 document.write("O Resultado é" + resultado);
-                let ju 
             }

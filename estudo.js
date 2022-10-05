@@ -33,7 +33,8 @@ alert("Oi, eu sou um alerta")
                 let mes = document.getElementById("mes").value;
                 let resultado = 0
                 for(let i = 1; i <= mes; i++){
-                        resultado += valor * (1+(juros/100));    
+                        resultado = valor * (1+(juros/100));
+                        valor = resultado;  
                 }
                 document.write("O Resultado é" + resultado);
             }

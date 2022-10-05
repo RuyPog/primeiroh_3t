@@ -27,3 +27,9 @@ alert("Oi, eu sou um alerta")
                 for(var i = 2; 1 < 21; i++){
                         document.write("O quadrado de " + i + " é " + (i*i)+"<br>")
             }
+            function total(){
+                let valor = document.getElementById("val").value;
+                let resultado = valor * 2;
+                document.write("O Resultado é" + resultado);
+                let ju 
+            }

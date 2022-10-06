@@ -26,6 +26,7 @@
             function quadrado(){
                 for(var i = 2; 1 < 21; i++){
                         document.write("O quadrado de " + i + " é " + (i*i)+"<br>")
+                }
             }
             function total(){
                 let valor = document.getElementById("val").value;
@@ -37,4 +38,4 @@
                         valor = resultado;  
                 }
                 document.write("O Resultado é" + resultado);
-            }
+        }

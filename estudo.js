@@ -37,5 +37,5 @@
                         resultado = valor * (1+(juros/100));
                         valor = resultado;  
                 }
-                document.write("O Resultado é" + resultado);
+                document.write("O Resultado é " + resultado);
         }

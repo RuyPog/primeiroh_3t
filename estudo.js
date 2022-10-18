@@ -34,7 +34,15 @@
                 let mes = document.getElementById("mes").value;
                 if(Number(valor)){
                         return
-                        document.write("O numero NÃO EXISTE");
+                        alert("O valor deve ser um número.");
+                } 
+                if(Number(juros)){
+                        return
+                        alert("O valor deve ser um número.");
+                } 
+                if(Number(mes)){
+                        return
+                        alert("O valor deve ser um número.");
                 } 
                 let resultado = 0
                 for(let i = 1; i <= mes; i++){

@@ -32,11 +32,11 @@
                 let valor = document.getElementById("val").value;
                 let juros = document.getElementById("ju").value;
                 let mes = document.getElementById("mes").value;
-                if(Number(valor)){
+                if(Number(val)){
                         return
                         alert("O valor deve ser um número.");
                 } 
-                if(Number(juros)){
+                if(Number(ju)){
                         return
                         alert("O valor deve ser um número.");
                 } 

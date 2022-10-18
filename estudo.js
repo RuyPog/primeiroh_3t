@@ -39,7 +39,18 @@
                 }
                 document.write("O Resultado é " + resultado);
         }
-
+        if(!Number(valor)){
+                alert("O valor deve ser um número.");
+                return
+        } 
+        if(!Number(juros)){
+                alert("O valor deve ser um número.");
+                return
+        } 
+        if(!Number(mes)){
+                alert("O valor deve ser um número.");
+                return
+        } 
         function soma(){
         let n1 = document.getElementById("n1").value;
         let n2 = document.getElementById("n2").value;

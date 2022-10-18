@@ -32,25 +32,13 @@
                 let valor = document.getElementById("val").value;
                 let juros = document.getElementById("ju").value;
                 let mes = document.getElementById("mes").value;
-            }
-                if(!Number(valor)){
-                        alert("O valor deve ser um número.");
-                        return
-                } 
-                if(!Number(juros)){
-                        alert("O valor deve ser um número.");
-                        return
-                } 
-                if(!Number(mes)){
-                        alert("O valor deve ser um número.");
-                        return
-                } 
                 let resultado = 0
                 for(let i = 1; i <= mes; i++){
                         resultado = valor * (1+(juros/100));
                         valor = resultado;  
                 }
                 document.write("O Resultado é " + resultado);
+        }
 
         function soma(){
         let n1 = document.getElementById("n1").value;

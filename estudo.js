@@ -34,16 +34,16 @@
                 let mes = document.getElementById("mes").value;
             }
                 if(!Number(valor)){
-                        return
                         alert("O valor deve ser um número.");
+                        return
                 } 
                 if(!Number(juros)){
-                        return
                         alert("O valor deve ser um número.");
+                        return
                 } 
                 if(!Number(mes)){
-                        return
                         alert("O valor deve ser um número.");
+                        return
                 } 
                 let resultado = 0
                 for(let i = 1; i <= mes; i++){

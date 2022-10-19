@@ -40,15 +40,15 @@
                 document.write("O Resultado é " + resultado);
         if(!Number(valor)){
                 alert("O valor deve ser um número.");
-                return
+                return;
         } 
         if(!Number(juros)){
                 alert("O valor de juros deve ser um número.");
-                return
+                return;
         } 
         if(!Number(mes)){
                 alert("A quantidade de meses deve ser um número.");
-                return
+                return;
         } 
             }
         function soma(){

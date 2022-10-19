@@ -43,11 +43,11 @@
                 return
         } 
         if(!Number(juros)){
-                alert("O valor deve ser um número.");
+                alert("O valor de juros deve ser um número.");
                 return
         } 
         if(!Number(mes)){
-                alert("O valor deve ser um número.");
+                alert("A quantidade de meses deve ser um número.");
                 return
         } 
             }

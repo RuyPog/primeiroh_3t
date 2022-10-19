@@ -34,6 +34,9 @@
                 let mes = document.getElementById("mes").value;
                 if(!Number(valor)){
                         alert("O valor deve ser um número.");
+                        document.getElementById("val").value = "";
+                        document.getElementById("val").focus();
+                        
                         return
                 } 
                 if(!Number(juros)){

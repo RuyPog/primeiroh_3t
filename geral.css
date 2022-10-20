@@ -2,10 +2,12 @@
     padding: 10px;
     background: lemonchiffon;
     border-color: black;
-    font-size: ;
+    font-size: 10px;
+    width: auto;
+    height: auto;
 }
 #btnCalc {
     width: 50px;
     padding: 5px;
-    background: blue;
+    background: peachpuff;
 }

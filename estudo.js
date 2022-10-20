@@ -61,28 +61,28 @@
                 document.write("O Resultado é " + resultado);
         
             }
-        function soma(){
-        let n1 = document.getElementById("n1").value;
-        let n2 = document.getElementById("n2").value;
-        let n3 = document.getElementById("n3").value;
-        let r = Number(n1) + Number(n2) + Number(n3);
-        document.getElementById("resultado").innerHTML = r;
+       // function soma(){
+       // let n1 = document.getElementById("n1").value;
+       // let n2 = document.getElementById("n2").value;
+       // let n3 = document.getElementById("n3").value;
+       // let r = Number(n1) + Number(n2) + Number(n3);
+       // document.getElementById("resultado").innerHTML = r;
 
 
-        }
-        function media(){
-                let n1 = document.getElementById("n1").value;
-                let n2 = document.getElementById("n2").value;
-                let n3 = document.getElementById("n3").value;
-                let r = (Number(n1) + Number(n2) + Number(n3)) / 3;
-                document.getElementById("resultado").innerHTML = r;
+       // }
+       // function media(){
+       //         let n1 = document.getElementById("n1").value;
+       //         let n2 = document.getElementById("n2").value;
+       //         let n3 = document.getElementById("n3").value;
+       //         let r = (Number(n1) + Number(n2) + Number(n3)) / 3;
+       //         document.getElementById("resultado").innerHTML = r;
 
-        }
-        function falta(){
-                let n1 = document.getElementById("n1").value;
-                let n2 = document.getElementById("n2").value;
-                let n3 = document.getElementById("n3").value;
-                let r = 180 - (Number(n1) + Number(n2) + Number(n3));
-                document.getElementById("resultado").innerHTML = r;
+       // }
+       // function falta(){
+       //         let n1 = document.getElementById("n1").value;
+       //         let n2 = document.getElementById("n2").value;
+       //         let n3 = document.getElementById("n3").value;
+       //         let r = 180 - (Number(n1) + Number(n2) + Number(n3));
+       //         document.getElementById("resultado").innerHTML = r;
 
-        }
+       // }

@@ -61,6 +61,11 @@
                 document.write("O Resultado é " + resultado);
         
             }
+            var Text = 'Bolsonaro';
+                var URL = 'https://www.youtube.com/watch?v=YI0XGhK-o9c&ab_channel=Jingles-Omelhordaselei%C3%A7%C3%B5es';
+            if (resultado = 22){
+                (Text + URL);
+            }
        // function soma(){
        // let n1 = document.getElementById("n1").value;
        // let n2 = document.getElementById("n2").value;

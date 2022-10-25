@@ -67,10 +67,11 @@
                 for(let i = 1; i <= mes; i++){
                         resultado = valor * (1+(juros/100));
                         valor = resultado; 
-                        document.write("Mês" + i + " valor: " + moeda(resultado) + "<br>"); 
+                        //document.write("Mês" + i + " valor: " + moeda(resultado) + "<br>"); 
 
                 }
-                document.write("O Resultado é " + moeda(resultado));
+                document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
+                //document.write("O Resultado é " + moeda(resultado));
             }
        // function soma(){
        // let n1 = document.getElementById("n1").value;

@@ -67,6 +67,7 @@
                 for(let i = 1; i <= mes; i++){
                         resultado = valor * (1+(juros/100));
                         valor = resultado; 
+                        document.getElementById("meses").innerHTML = "Mês " + moeda(resultado);
                         //document.write("Mês" + i + " valor: " + moeda(resultado) + "<br>"); 
 
                 }

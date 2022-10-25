@@ -56,12 +56,6 @@
 
                         return
                 } 
-                let resultado = 0
-                for(let i = 1; i <= mes; i++){
-                        resultado = valor * (1+(juros/100));
-                        valor = resultado;  
-                }
-                document.write("O Resultado é " + resultado);
         
                 let resultado = 0
                 let texto = "";

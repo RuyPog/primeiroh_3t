@@ -64,13 +64,15 @@
                 document.write("O Resultado é " + resultado);
         
                 let resultado = 0
+                let texto = "";
                 for(let i = 1; i <= mes; i++){
                         resultado = valor * (1+(juros/100));
                         valor = resultado; 
-                        document.getElementById("meses").innerHTML = "Mês " + moeda(resultado);
+                         texto += "Mês " + i + "valor " + moeda(resultado)+ "<br>";
                         //document.write("Mês" + i + " valor: " + moeda(resultado) + "<br>"); 
 
                 }
+                document.getElementById("meses").innerHTML = texto;
                 document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
                 //document.write("O Resultado é " + moeda(resultado));
             }

@@ -2,22 +2,22 @@
 //console.log("");
 //document.write("");
        
-        var tabuada = 2;
+        //var tabuada = 2;
 
-        function meChame(nome){
-                document.write("<h1>Tabuada do " + tabuada + "</h1>");
-                document.write(tabuada + " X 1 = " + (tabuada*1)+"<br>");
-                document.write(tabuada + " X 2 = " + (tabuada*2)+"<br>");
-                document.write(tabuada + " X 3 = " + (tabuada*3)+"<br>");
-                document.write(tabuada + " X 4 = " + (tabuada*4)+"<br>");
-                document.write(tabuada + " X 5 = " + (tabuada*5)+"<br>");
-                document.write(tabuada + " X 6 = " + (tabuada*6)+"<br>");
-                document.write(tabuada + " X 7 = " + (tabuada*7)+"<br>");
-                document.write(tabuada + " X 8 = " + (tabuada*8)+"<br>");
-                document.write(tabuada + " X 9 = " + (tabuada*9)+"<br>");
-                document.write(tabuada + " X 10 = " + (tabuada*10)+"<br>"+"<br>");
-                document.write("feita por " + nome);
-            }
+        //function meChame(nome){
+          //      document.write("<h1>Tabuada do " + tabuada + "</h1>");
+           //     document.write(tabuada + " X 1 = " + (tabuada*1)+"<br>");
+           //     document.write(tabuada + " X 2 = " + (tabuada*2)+"<br>");
+           //     document.write(tabuada + " X 3 = " + (tabuada*3)+"<br>");
+           //     document.write(tabuada + " X 4 = " + (tabuada*4)+"<br>");
+           //     document.write(tabuada + " X 5 = " + (tabuada*5)+"<br>");
+           //     document.write(tabuada + " X 6 = " + (tabuada*6)+"<br>");
+           //     document.write(tabuada + " X 7 = " + (tabuada*7)+"<br>");
+           //     document.write(tabuada + " X 8 = " + (tabuada*8)+"<br>");
+           //     document.write(tabuada + " X 9 = " + (tabuada*9)+"<br>");
+           //     document.write(tabuada + " X 10 = " + (tabuada*10)+"<br>"+"<br>");
+           //     document.write("feita por " + nome);
+           // }
             function escreva() {
                 for(var i = 0; 1 < 20; i++){
                         document.write(tabuada + " x 10 = " + i + (tabuada*i) + "<br>")
@@ -60,6 +60,13 @@
                 }
                 document.write("O Resultado é " + resultado);
         
+                let resultado = 0
+                for(let i = 1; i <= mes; i++){
+                        resultado = valor * (1+(juros/100));
+                        valor = resultado; 
+                        document.write("Mês" + i + " valor: " + resultado + "<br>"); 
+                }
+                document.write("O Resultado é " + resultado);
             }
        // function soma(){
        // let n1 = document.getElementById("n1").value;

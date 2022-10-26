@@ -1,24 +1,4 @@
-//alert("")
-//console.log("");
-//document.write("");
-       
-        //var tabuada = 2;
-
-        //function meChame(nome){
-          //      document.write("<h1>Tabuada do " + tabuada + "</h1>");
-           //     document.write(tabuada + " X 1 = " + (tabuada*1)+"<br>");
-           //     document.write(tabuada + " X 2 = " + (tabuada*2)+"<br>");
-           //     document.write(tabuada + " X 3 = " + (tabuada*3)+"<br>");
-           //     document.write(tabuada + " X 4 = " + (tabuada*4)+"<br>");
-           //     document.write(tabuada + " X 5 = " + (tabuada*5)+"<br>");
-           //     document.write(tabuada + " X 6 = " + (tabuada*6)+"<br>");
-           //     document.write(tabuada + " X 7 = " + (tabuada*7)+"<br>");
-           //     document.write(tabuada + " X 8 = " + (tabuada*8)+"<br>");
-           //     document.write(tabuada + " X 9 = " + (tabuada*9)+"<br>");
-           //     document.write(tabuada + " X 10 = " + (tabuada*10)+"<br>"+"<br>");
-           //     document.write("feita por " + nome);
-           // }
-            function escreva() {
+      function escreva() {
                 for(var i = 0; 1 < 20; i++){
                         document.write(tabuada + " x 10 = " + i + (tabuada*i) + "<br>")
                 }
@@ -70,28 +50,3 @@
                 document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
                 //document.write("O Resultado é " + moeda(resultado));
             }
-       // function soma(){
-       // let n1 = document.getElementById("n1").value;
-       // let n2 = document.getElementById("n2").value;
-       // let n3 = document.getElementById("n3").value;
-       // let r = Number(n1) + Number(n2) + Number(n3);
-       // document.getElementById("resultado").innerHTML = r;
-
-
-       // }
-       // function media(){
-       //         let n1 = document.getElementById("n1").value;
-       //         let n2 = document.getElementById("n2").value;
-       //         let n3 = document.getElementById("n3").value;
-       //         let r = (Number(n1) + Number(n2) + Number(n3)) / 3;
-       //         document.getElementById("resultado").innerHTML = r;
-
-       // }
-       // function falta(){
-       //         let n1 = document.getElementById("n1").value;
-       //         let n2 = document.getElementById("n2").value;
-       //         let n3 = document.getElementById("n3").value;
-       //         let r = 180 - (Number(n1) + Number(n2) + Number(n3));
-       //         document.getElementById("resultado").innerHTML = r;
-
-       // }

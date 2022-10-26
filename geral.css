@@ -29,4 +29,5 @@
  }
 #btnCalc:hover{
     background: yellow;
+    cursor: pointer;
 }

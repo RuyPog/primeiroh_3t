@@ -14,8 +14,13 @@
     padding: 5px;
     background: papayawhip;
 }
- input {
+input {
      margin: 10px;
+ }
+ .calculadora input {
+    background: tan;
+    color: aliceblue;
+    border-radius: 5px;
  }
 .spResul {
     background: whitesmoke;

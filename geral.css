@@ -4,7 +4,7 @@
     border-width: 20px;
     border-style: solid;
     border-radius: 10px;
-    border-color: black;
+    border-color: peru;
     font-size: 20px;
     width: 350px;
     height: auto;
@@ -13,7 +13,7 @@
     font-size: 22px;
     width: 80px;
     padding: 5px;
-    background: papayawhip;
+    background: tan;
     margin-top: 15px;
 }
  .calculadora input {
@@ -22,23 +22,24 @@
     border-radius: 5px;
  }
 .spResul {
-    background: cadetblue;
-    color: darkorange;
+    background: tan;
+    color: none;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
  }
 #btnCalc:hover{
-    background: yellow;
+    background: sienna;
     cursor: pointer;
 }
 .listaMensal {
+    margin-top: 10px;
     padding: 20px;
     background: lemonchiffon;
     border-width: 20px;
     border-style: solid;
     border-radius: 10px;
-    border-color: black;
+    border-color: peru;
     font-size: 20px;
     width: 350px;
     height: auto;

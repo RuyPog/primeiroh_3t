@@ -39,14 +39,17 @@
                 let a = document.getElementById("a").value;
                 let b = document.getElementById("b").value;
                 let c = document.getElementById("c").value;
-                let delta = (b*b) - 4*a*c;
+                let delta = (Numbe(b))*(Number(b)) - (4*Number);
+                let x1,x2 =; 
                 if (delta < 0){
+                        document.getElementById("raiz").innerHTML = "Não tem raiz real :(";
 
                 }
                 else if (delta == 0){
-
+                        x1 = (-b)/(2*a);
+                        document.getElementById("raiz").innerHTML = "X1 = X2 = "
                 }
                 else{
-
+                x1 = ((number(-b))) + Math.sqrt(Number(delta)))/
                 }
             }

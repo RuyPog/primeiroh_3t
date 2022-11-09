@@ -52,4 +52,4 @@
                 else{
                 x1 = ((number(-b))) + Math.sqrt(Number(delta)))/
                 }
-            }
+        }

@@ -39,6 +39,9 @@
     background: tan;
     color: aliceblue;
     border-radius: 5px;
+    border: none;
+    width: 50px;
+    margin: 5px;
  }
 .spResul {
     background: tan;
@@ -52,16 +55,15 @@
     cursor: pointer;
 }
 .listaMensal {
-    margin-top: 10px;
+    margin: 10px;
     padding: 20px;
     background: lemonchiffon;
     border-width: 20px;
     border-style: solid;
     border-radius: 10px;
     border-color: peru;
-    box-shadow: 10px 10px 10px 10px #555;
     font-size: 20px;
-    width: 350px;
+    width: 250px;
     height: auto;
 }
 #calculaRaiz{

@@ -47,7 +47,7 @@
                 }
                 else if (delta == 0){
                         x1 = (-b)/(2*a);
-                        document.getElementById("raiz").innerHTML = "X1 = X2 = "
+                        document.getElementById("raiz").innerHTML = "X1 = X2 = ";
                 }
                 else{
                 x1 = ((number(-b))) + Math.sqrt(Number(delta))

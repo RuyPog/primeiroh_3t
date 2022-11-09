@@ -75,7 +75,7 @@
     display: none;
 }
 #calcFin {
-
+    display: none;
 }
 #calcFin:checked + .calculadora .calcF {
     display: block;

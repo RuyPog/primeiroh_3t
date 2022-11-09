@@ -50,6 +50,6 @@
                         document.getElementById("raiz").innerHTML = "X1 = X2 = "
                 }
                 else{
-                x1 = ((number(-b))) + Math.sqrt(Number(delta)))/
+                x1 = ((number(-b))) + Math.sqrt(Number(delta))
                 }
         }

@@ -47,3 +47,10 @@
     width: 350px;
     height: auto;
 }
+#calculaRaiz{
+    font-size: 22px;
+    width: 80px;
+    padding: 5px;
+    background: tan;
+    margin-top: 15px;
+}

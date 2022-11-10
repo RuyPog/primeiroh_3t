@@ -94,6 +94,6 @@ h3 {
 #calcESG:checked + .calculadoraRaiz .calcE {
     display: block;
 }
-.calculadora:hover, .calculadoraRaiz:hover {
+h3, .calculadora:hover, .calculadoraRaiz:hover {
     cursor: pointer;
  }

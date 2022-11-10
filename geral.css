@@ -86,3 +86,6 @@
 #calcFin:checked + .calculadora .calcF {
     display: block;
 }
+#calcESG:checked + .calculadoraRaiz .calcE {
+    display: block;
+}

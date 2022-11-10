@@ -46,9 +46,6 @@ h3 {
     background: tan;
     color: aliceblue;
     border-radius: 5px;
-    border: none;
-    width: 50px;
-    margin: 5px;
  }
 .spResul {
     background: tan;
@@ -95,6 +92,4 @@ h3 {
 }
 .calculadora:hover, .calculadoraRaiz:hover {
     cursor: pointer;
-    border-color: saddlebrown;
-    background: sandybrown;
  }

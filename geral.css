@@ -2,6 +2,7 @@ h3 {
     margin-left: 20px;
 }
 .calculadora {
+    padding: 20px;
     background: lemonchiffon;
     margin-top: 10px;
     border-width: 20px;
@@ -14,6 +15,7 @@ h3 {
     height: auto;
 }
 .calculadoraRaiz {
+    padding: 20px;
     background: lemonchiffon;
     margin-top: 10px;
     border-width: 20px;
@@ -32,6 +34,7 @@ h3 {
     background: tan;
     margin-top: 15px;
     margin-left: 15px;
+    border-radius: 5px;
 }
 #btnCalc:hover{
     background: sienna;
@@ -73,6 +76,7 @@ h3 {
     background: tan;
     margin-top: 15px;
     margin-left: 15px;
+    border-radius: 5px;
 }
 #calculaRaiz:hover {
     background: sienna;

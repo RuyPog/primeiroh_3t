@@ -30,6 +30,10 @@
     background: tan;
     margin-top: 15px;
 }
+#btnCalc:hover{
+    background: sienna;
+    cursor: pointer;
+}
  .calculadora input {
     background: tan;
     color: aliceblue;
@@ -50,10 +54,6 @@
     margin: 5px;
     border-radius: 10px;
  }
-#btnCalc:hover{
-    background: sienna;
-    cursor: pointer;
-}
 .listaMensal {
     margin: 10px;
     padding: 20px;
@@ -73,10 +73,14 @@
     background: tan;
     margin-top: 15px;
 }
-.calcF {
+#calculaRaiz:hover {
+    background: sienna;
+    cursor: pointer;
+}
+.calcF, .calcE {
     display: none;
 }
-#calcFin {
+#calcFin, #calcESG {
     display: none;
 }
 #calcFin:checked + .calculadora .calcF {

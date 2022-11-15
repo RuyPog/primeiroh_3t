@@ -1,5 +1,5 @@
 h3 {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .calculadora {
     padding: 20px;
@@ -7,12 +7,25 @@ h3 {
     margin-top: 10px;
     border-width: 20px;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 30px;
     border-color: peru;
     box-shadow: 10px 10px 10px 10px #555;
     font-size: 20px;
     width: 350px;
     height: auto;
+    transform: translatey(0px);
+    animation: float 1s ease-in-out infinite;
+}
+@keyframes float {
+ 0% {
+  transform: translatey(0px);
+ }
+ 50% {
+  transform: translatey(5px);
+ }
+ 100% {
+  transform: translatey(0px);
+ }
 }
 .calculadoraRaiz {
     padding: 20px;
@@ -20,12 +33,14 @@ h3 {
     margin-top: 10px;
     border-width: 20px;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 30px;
     border-color: peru;
     box-shadow: 10px 10px 10px 10px #555;
     font-size: 20px;
     width: 350px;
     height: auto;
+    transform: translatey(0px);
+    animation: float 1s ease-in-out infinite;
 }
 #btnCalc {
     font-size: 22px;
@@ -97,3 +112,11 @@ h3 {
 h3, .calculadora:hover, .calculadoraRaiz:hover {
     cursor: pointer;
  }
+.calculadora:hover {
+ transform: translatey(0px);
+    animation: none;
+}
+.calculadoraRaiz:hover {
+ transform: translatey(0px);
+    animation: none;
+}

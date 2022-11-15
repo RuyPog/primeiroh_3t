@@ -39,7 +39,8 @@
                 let a = document.getElementById("a").value;
                 let b = document.getElementById("b").value;
                 let c = document.getElementById("c").value;
-                let delta = (Numbe(b))*(Number(b)) - (4*Number); 
+                let delta = Math.pow(b,2) - 4*a*c;
+                alert("Delta = " + delta)
                 if (delta < 0){
                         document.getElementById("raiz").innerHTML = "Não tem raiz real :(";
 

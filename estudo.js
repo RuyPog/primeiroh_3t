@@ -38,7 +38,7 @@
                 let b = document.getElementById("b").value;
                 let c = document.getElementById("c").value;
                 let delta = Math.pow(b,2) - 4*a*c;
-                document.getElementById("raiz").innerHTML = "Delta: " + delta;
+                document.getElementById("raiz").innerHTML = "X= " + delta;
                 //if (delta < 0){
                 //        document.getElementById("raiz").innerHTML = "Não tem raiz real :(";
 

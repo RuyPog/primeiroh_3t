@@ -4,6 +4,7 @@ h3 {
 .calculadora {
     padding: 20px;
     background: url(download.jpg);
+    background-size: 100%;
     margin-top: 10px;
     border-width: 20px;
     border-style: solid;

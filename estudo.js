@@ -29,27 +29,25 @@
                         resultado = valor * (1+(juros/100));
                         valor = resultado; 
                          texto += "Mês " + i + " valor " + moeda(resultado)+ "<br>";
-                        //document.write("Mês" + i + " valor: " + moeda(resultado) + "<br>"); 
                 }
                 document.getElementById("meses").innerHTML = texto;
                 document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
-                //document.write("O Resultado é " + moeda(resultado));
             }
             function calculaRaiz(){
                 let a = document.getElementById("a").value;
                 let b = document.getElementById("b").value;
                 let c = document.getElementById("c").value;
                 let delta = Math.pow(b,2) - 4*a*c;
-                alert("Delta = " + delta)
-                if (delta < 0){
-                        document.getElementById("raiz").innerHTML = "Não tem raiz real :(";
+                document.getElementById("raiz").innerHTML = "Delta: " + delta;
+                //if (delta < 0){
+                //        document.getElementById("raiz").innerHTML = "Não tem raiz real :(";
 
-                }
-                else if (delta == 0){
-                        x1 = (-b)/(2*a);
-                        document.getElementById("raiz").innerHTML = "X1 = X2 = ";
-                }
-                else{
-                x1 = ((number(-b))) + Math.sqrt(Number(delta))
-                }
+                // }
+                //else if (delta > 0){
+                //        x1 = (-b)/(2*a);
+                //        document.getElementById("raiz").innerHTML = "X1 = X2 = ";
+                //}
+                //else{
+                //x1 = ((number(-b))) + Math.sqrt(Number(delta))
+                //}
         }

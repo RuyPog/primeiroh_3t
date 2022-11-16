@@ -72,6 +72,13 @@ h3 {
     margin: 5px;
     border-radius: 10px;
  }
+ .spRaiz {
+    background: tan;
+    color: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+ }
 .listaMensal {
     margin: 10px;
     padding: 20px;

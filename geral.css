@@ -50,6 +50,7 @@ h3 {
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 5px;
+    transition: 1s background;
 }
 #btnCalc:hover{
     background: sienna;
@@ -99,6 +100,7 @@ h3 {
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 5px;
+    transition: 1s background;
 }
 #calculaRaiz:hover {
     background: sienna;

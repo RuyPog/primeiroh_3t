@@ -3,7 +3,7 @@ h3 {
 }
 .calculadora {
     padding: 20px;
-    background: lemonchiffon;
+    background: url(download.jpg);
     margin-top: 10px;
     border-width: 20px;
     border-style: solid;
@@ -15,6 +15,9 @@ h3 {
     height: auto;
     transform: translatey(0px);
     animation: float 1s ease-in-out infinite;
+}
+#manoel{
+    width: 100%;
 }
 @keyframes float {
  0% {

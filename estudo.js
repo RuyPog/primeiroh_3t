@@ -64,7 +64,7 @@
                 if(h < 10){
                         h = "0" + h;
                 }
-
+        if(h == 18 && m == 29 && s ==10);
         if(s % 2 == 0){
   document.getElementById("anima").style.transform = "scale(.5)" ;
         }

@@ -56,6 +56,22 @@
                 let h = d.getHours();
                 let m = d.getMinutes();
                 let s = d.getSeconds();
+                if(s < 10){
+                        s = "0" + s;
+                }if(m < 10){
+                        m = "0" + m;
+                }
+                if(h < 10){
+                        h = "0" + h;
+                }
 
-                document.getElementById("hora").innerHTML = h + ":" + m + ":" + s;
+        if(s % 2 == 0){
+  document.getElementById("anima").style.transform = "scale(.5)" ;
+        }
+        else{
+                document.getElementById("anima").style.transform = "scale(1)";   
+        }             
+  document.getElementById("hora").innerHTML = h + ":" + m + ":" + s;
+                setTimeout(horario,1000);
+        
         }

@@ -51,3 +51,11 @@
                 //x1 = ((number(-b))) + Math.sqrt(Number(delta))
                 //}
         }
+        function horario(){
+                let d = new Date();
+                let h = d.getHours();
+                let m = d.getMinutes();
+                let s = d.getSeconds();
+
+                document.getElementById("hora").innerHTML = h + ":" + m + ":" + s;
+        }

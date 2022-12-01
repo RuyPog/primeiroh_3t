@@ -39,17 +39,6 @@
                 let c = document.getElementById("c").value;
                 let delta = Math.pow(b,2) - 4*a*c;
                 document.getElementById("raiz").innerHTML = "X= " + delta;
-                //if (delta < 0){
-                //        document.getElementById("raiz").innerHTML = "Não tem raiz real :(";
-
-                // }
-                //else if (delta > 0){
-                //        x1 = (-b)/(2*a);
-                //        document.getElementById("raiz").innerHTML = "X1 = X2 = ";
-                //}
-                //else{
-                //x1 = ((number(-b))) + Math.sqrt(Number(delta))
-                //}
         }
         function horario(){
                 let d = new Date();
